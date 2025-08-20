@@ -22,8 +22,8 @@ public class rightRotateArray {
     }
     static void rotate(int[] arr, int size, int rotation) {
         rotation = rotation % size;
-        Arrays.arrayRotate.reverse(arr, size-rotation, size-1);
-        Arrays.arrayRotate.reverse(arr, 0, size-rotation-1);
-        Arrays.arrayRotate.reverse(arr, 0, size-1);
+        arrayRotate.reverse(arr, size-rotation, size-1);
+        arrayRotate.reverse(arr, 0, size-rotation-1);
+        arrayRotate.reverse(arr, 0, size-1);
     }
 }
