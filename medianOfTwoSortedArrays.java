@@ -20,7 +20,7 @@ public class medianOfTwoSortedArrays {
         median(arr, arr1, n, n1);
     }
     static void median(int[] arr, int[] arr1, int n, int n1) {
-        ArrayList<Integer> list = new ArrayList<Integer>();
+        ArrayList<Integer> list = new ArrayList<>();
         int right = 0 , left = 0;
         while(right<n && left<n1) {
             if(arr[right] <= arr1[left]) {

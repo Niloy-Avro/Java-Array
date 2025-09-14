@@ -18,7 +18,7 @@ public class alternateElement {
 
     static void alternate(int[] arr, int n) {
         ArrayList<Integer> list= new ArrayList<Integer>();
-        for(int i=0;i<n;i+=2) {
+        for(int i=0;i<n;i=i+2) {
             list.add(arr[i]);
         }
         System.out.println("The alternate elements of the array are: "+list);

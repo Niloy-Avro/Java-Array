@@ -15,10 +15,10 @@ public class DuplicateElements {
     }
 
     static void check(int[] arr, int n) {
-        ArrayList<Integer> list = new ArrayList<Integer>();
+        ArrayList<Integer> list = new ArrayList<>();
         for(int i=0;i<n;i++) {
             for(int j=i+1;j<n;j++) {
-                if(arr[i]==arr[j] && !list.contains(i)) {
+                if(arr[i]==arr[j] && !list.contains(arr[i])) {
                     list.add(arr[i]);
                 }
             }

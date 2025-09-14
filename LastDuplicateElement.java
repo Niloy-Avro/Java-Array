@@ -12,10 +12,10 @@ public class LastDuplicateElement {
         for(int i=0;i<n;i++) {
             arr[i]=sc.nextInt();
         }
-        dpele(arr,n);
+        DPele(arr,n);
     }
-    public static void dpele(int[] arr, int n) {
-        for(int i=n-1;i>0;i--) {
+    public static void DPele(int[] arr, int n) {
+        for(int i=n-1;i>=0;i--) {
             if(arr[i]==arr[i-1]) {
                 System.out.println("Last duplicate element is: "+arr[i]+" and the index is: "+i);
                 return;

@@ -18,12 +18,11 @@ public class AvgOfArrayElements {
     }
 
     static int avg(int[] arr, int n) {
-        int sum = 0, count = 0;
+        int sum = 0;
         for (int i = 0; i < n; i++) {
             sum = sum + arr[i];
-            count++;
         }
-        int avg = sum / count;
+        int avg = sum / n;
         return avg;
     }
 }

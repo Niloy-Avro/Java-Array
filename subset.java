@@ -19,9 +19,9 @@ public class subset {
         for(int i=0;i<m;i++) {
             arr2[i]=sc.nextInt();
         }
-        subset(arr1, arr2, n, m);
+        findSubset(arr1, arr2, n, m);
     }
-    static void subset(int[] arr1, int[] arr2, int size1, int size2) {
+    static void findSubset(int[] arr1, int[] arr2, int size1, int size2) {
         for(int i=0;i<size2;i++) {
             boolean isFound = false;
             for(int j=0;j<size1;j++) {

@@ -8,3 +8,8 @@
 last element = first element + n - 1 
 ```
 ---
+#### Majority element :
+```
+Sei element jeta array er moddhe n/2 theke strictly beshi bar ashe.
+```
+---

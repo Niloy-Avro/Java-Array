@@ -2,7 +2,7 @@ package Arrays;
 
 import java.util.Scanner;
 public class palindromicArray {
-    static int isPalindrome(int num) {
+    static boolean isPalindrome(int num) {
         int original = num;
         int reversed = 0;
 
@@ -12,14 +12,14 @@ public class palindromicArray {
             num /= 10;
         }
 
-       if(original==reversed) return 1;
-       else return 0;
+       if(original==reversed) return true;
+       else return false;
     }
 
     static int array(int[] arr, int n) {
         int count=0;
         for(int i=0;i<n;i++) {
-            if(isPalindrome(arr[i])==1) {
+            if(isPalindrome(arr[i])==true) {
                 count++;
             }
             else {

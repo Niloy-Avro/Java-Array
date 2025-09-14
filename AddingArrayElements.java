@@ -20,7 +20,7 @@ public class AddingArrayElements {
 
     static void add(int[] arr, int k) {
         try {
-            PriorityQueue<Integer> pq = new PriorityQueue<Integer>();
+            PriorityQueue<Integer> pq = new PriorityQueue<>();
             for(int i: arr) {
                 pq.add(i);
             }
